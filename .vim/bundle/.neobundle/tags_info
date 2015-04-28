@@ -1,3 +1,4 @@
 neobundle.vim
 neocomplcache
 unite.vim
+vim-easymotion
