@@ -18,6 +18,8 @@ NeoBundle 'Shougo/unite.vim.git'
 
 NeoBundle 'Lokaltog/vim-easymotion'
 
+NeoBundle 'scrooloose/syntastic'
+
 filetype plugin indent on       " restore filetype
 
 " ノーマルモードでカーソル位置の値をインクリメント、デクリメントする。
@@ -46,4 +48,7 @@ let g:EasyMotion_grouping=1
 " カラー設定変更
 hi EasyMotionTarget ctermbg=none ctermfg=red
 hi EasyMotionShade  ctermbg=none ctermfg=blue
+
+" syntasticのデフォルトを変更
+let g:syntastic_javascript_checkers = ['eslint']
 
