@@ -7,7 +7,6 @@ endif
 
 call neobundle#begin(expand('~/.vim/bundle'))
 NeoBundleFetch 'Shougo/neobundle.vim'
-call neobundle#end()
  
 " ここから NeoBundle でプラグインを設定します
 " NeoBundle で管理するプラグインを追加します。
@@ -21,6 +20,8 @@ NeoBundle 'Lokaltog/vim-easymotion'
 NeoBundle 'scrooloose/syntastic'
 
 NeoBundle 'itchyny/lightline.vim'
+
+call neobundle#end()
 
 filetype plugin indent on       " restore filetype
 
